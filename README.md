@@ -1,49 +1,45 @@
-# AI-Powered Academic Advisor
+Here’s a polished project description you can use for your GitHub repository:
 
-An intelligent academic advising system that provides personalized course recommendations and study plans for students based on their academic performance, interests, and career goals.
+---
+
+# AI-Powered Academic Advisor 🎓
+
+An intelligent academic advising system that provides personalized course recommendations and study plans for students, leveraging their academic performance, interests, and career goals. This project features a modern, interactive Streamlit web app for easy use by students and advisors.
 
 ## Features
 
-- Student profile analysis
-- Course recommendations based on interests and performance
-- Personalized study plans
-- Interactive web interface
-- Real-time recommendations
+- **Student Profile Analysis:** Visualize GPA, study habits, interests, and career goals.
+- **Personalized Course Recommendations:** Suggests the best-fit courses for each student using a hybrid recommendation approach.
+- **Dynamic Study Plan:** Generates a semester-wise plan tailored to the student’s aspirations and academic record.
+- **Modern Web Interface:** Built with Streamlit for an attractive, responsive, and user-friendly experience.
+- **Easy Data Management:** Works with CSV files for student, course, and enrollment data.
 
-## Deployment Instructions
+## Demo
+![image](https://github.com/user-attachments/assets/27c3c1e9-f27f-45c2-b388-00adc2c99cfd)
+![image](https://github.com/user-attachments/assets/7ddc785e-c7f6-4298-95a9-f25dc1792302)
 
-1. Fork this repository to your GitHub account
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Sign in with your GitHub account
-4. Click "New app"
-5. Select your forked repository
-6. Set the main file path as `src/streamlit_app.py`
-7. Click "Deploy"
 
-## Local Development
+## Getting Started
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ANJALI-009/-AI-Powered-Academic-Advisor.git
+   cd -AI-Powered-Academic-Advisor
+   ```
 
-2. Activate the virtual environment:
-```bash
-# Windows
-venv\Scripts\activate
-# Unix/MacOS
-source venv/bin/activate
-```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. **Run the app locally:**
+   ```bash
+   streamlit run src/streamlit_app.py
+   ```
 
-4. Run the app:
-```bash
-streamlit run src/streamlit_app.py
-```
+4. **Or deploy on [Streamlit Cloud](https://streamlit.io/cloud):**
+   - Fork this repo to your GitHub account.
+   - On Streamlit Cloud, create a new app and set the main file to `src/streamlit_app.py`.
 
 ## Project Structure
 
@@ -60,6 +56,8 @@ streamlit run src/streamlit_app.py
 │   ├── course_data.csv
 │   └── enrollment_data.csv
 ├── requirements.txt
+├── .streamlit/
+│   └── config.toml
 └── README.md
 ```
 
@@ -71,3 +69,11 @@ streamlit run src/streamlit_app.py
 - Scikit-learn
 - NumPy
 
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+You can copy-paste this into your `README.md` or GitHub project description.  
+Let me know if you want to tailor it further for a specific audience or add more details!
